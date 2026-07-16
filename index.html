@@ -16,42 +16,45 @@
 <body class="bg-[#121212] text-gray-200 selection:bg-emerald-500 selection:text-black">
 
     <header class="fixed top-0 left-0 right-0 z-50 bg-[#121212]/80 backdrop-blur-md border-b border-zinc-800">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-900/30">
-                    A
-                </div>
-                <span class="text-xl font-extrabold tracking-wider text-white">ALAUNCHER</span>
-            </div>
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <!-- ВАШ ЛОГОТИП В ФОРМАТЕ ICO -->
+            <img src="images/logo.ico" 
+                 alt="ALauncher" 
+                 class="w-10 h-10 rounded-xl shadow-lg shadow-emerald-900/30 object-contain"
+                 onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23059669%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2250%22 text-anchor=%22middle%22 dy=%22.35em%22 fill=%22white%22 font-size=%2250%22 font-weight=%22bold%22>A</text></svg>';">
             
-            <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
-                <a href="#features" class="hover:text-emerald-400 transition-colors">Преимущества</a>
-                <a href="#download" class="hover:text-emerald-400 transition-colors">Скачать</a>
-                <a href="#guide" class="hover:text-emerald-400 transition-colors">Инструкция</a>
-                <a href="#faq" class="hover:text-emerald-400 transition-colors">FAQ</a>
-            </nav>
-            
-            <div class="hidden md:block">
-                <a href="#download" class="bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all shadow-md shadow-emerald-900/20 hover:scale-105">
-                    Скачать лаунчер
-                </a>
-            </div>
-
-            <button id="mobile-menu-btn" class="md:hidden text-zinc-400 hover:text-white transition-colors focus:outline-none">
-                <i class="fa-solid fa-bars text-2xl"></i>
-            </button>
+            <span class="text-xl font-extrabold tracking-wider text-white">ALAUNCHER</span>
         </div>
-
-        <div id="mobile-menu" class="hidden md:hidden bg-[#121212] border-b border-zinc-800 px-6 py-4 space-y-4">
-            <a href="#features" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Преимущества</a>
-            <a href="#download" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Скачать</a>
-            <a href="#guide" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Инструкция</a>
-            <a href="#faq" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">FAQ</a>
-            <a href="#download" class="block bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-2.5 rounded-lg text-center font-bold transition-all shadow-md">
+        
+        <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
+            <a href="#features" class="hover:text-emerald-400 transition-colors">Преимущества</a>
+            <a href="#download" class="hover:text-emerald-400 transition-colors">Скачать</a>
+            <a href="#guide" class="hover:text-emerald-400 transition-colors">Инструкция</a>
+            <a href="#faq" class="hover:text-emerald-400 transition-colors">FAQ</a>
+        </nav>
+        
+        <div class="hidden md:block">
+            <a href="#download" class="bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all shadow-md shadow-emerald-900/20 hover:scale-105">
                 Скачать лаунчер
             </a>
         </div>
-    </header>
+
+        <button id="mobile-menu-btn" class="md:hidden text-zinc-400 hover:text-white transition-colors focus:outline-none">
+            <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-[#121212] border-b border-zinc-800 px-6 py-4 space-y-4">
+        <a href="#features" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Преимущества</a>
+        <a href="#download" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Скачать</a>
+        <a href="#guide" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">Инструкция</a>
+        <a href="#faq" class="block text-zinc-300 hover:text-emerald-400 font-semibold transition-colors">FAQ</a>
+        <a href="#download" class="block bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-2.5 rounded-lg text-center font-bold transition-all shadow-md">
+            Скачать лаунчер
+        </a>
+    </div>
+</header>
 
     <section class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 min-h-screen">
         <div class="flex-1 space-y-6 text-center md:text-left">
