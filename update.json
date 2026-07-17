@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
-    "download_url": "https://alauncher-khaki.vercel.app/downloads/ALauncher_Setup.exe",
-    "changelog": "- Добавлена белая тема\n- Исправлены ошибки\n- Автообновление"
+    "version": "1.0.0",
+    "download_url": "https://github.com/ВАШ_ЛОГИН/alauncher-khaki/releases/latest/download/ALauncher_Setup.exe",
+    "changelog": "Первая версия лаунчера"
 }
